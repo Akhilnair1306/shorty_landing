@@ -64,7 +64,8 @@ module.exports = {
     			montserrat: ['Montserrat', 'sans-serif']
     		},
     		animation: {
-    			rainbow: 'rainbow var(--speed, 2s) infinite linear'
+    			rainbow: 'rainbow var(--speed, 2s) infinite linear',
+    			grid: 'grid 15s linear infinite'
     		},
     		keyframes: {
     			rainbow: {
@@ -73,6 +74,14 @@ module.exports = {
     				},
     				'100%': {
     					'background-position': '200%'
+    				}
+    			},
+    			grid: {
+    				'0%': {
+    					transform: 'translateY(-50%)'
+    				},
+    				'100%': {
+    					transform: 'translateY(0)'
     				}
     			}
     		}

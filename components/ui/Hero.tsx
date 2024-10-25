@@ -65,15 +65,7 @@ const Hero: React.FC<Props> = () => {
           animation: gradient 4s ease-in-out infinite;
         }
       `}</style>
-      <section className="relative py-12 bg-white sm:py-16 lg:py-20 mt-20">
-        <div className="absolute inset-0">
-          <img
-            className="object-cover w-full h-full"
-            src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/5/grid-pattern.png"
-            alt="Background pattern"
-          />
-        </div>
-
+      <section className="relative py-12 sm:py-16 lg:py-20 mt-20">
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-xl mx-auto text-center">
             <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl lg:text-5xl">
